@@ -8,7 +8,7 @@ Implemention of Method in paper 'Blur and Illumination invariant face recognitio
     h=filter(:);
     Ib=Ah;
 
-等效于
+is equal to
 
     imBlurred=imfilter(im,filter,boundrary,'conv');
     Ib=imBlurred(:);
